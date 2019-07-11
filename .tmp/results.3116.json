@@ -1,0 +1,193 @@
+[
+  {
+    "description": "    User will enter name & email, click next, then user will choose between ps4 & xbox and then..",
+    "keyword": "Feature",
+    "name": "Form Validation",
+    "line": 1,
+    "id": "form-validation",
+    "tags": [],
+    "uri": "features\\form.feature",
+    "elements": [
+      {
+        "id": "form-validation;validate-name-&-email-entry-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Validate Name & Email Entry Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I go to \"http://www.way2automation.com/angularjs-protractor/multiform/#/form/profile\"",
+            "match": {
+              "location": "features\\steps\\formSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter \"Limmy\" for field \"formData.name\"",
+            "match": {
+              "location": "features\\steps\\formSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1036000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter \"lim@gmail.com\" for field \"formData.email\"",
+            "match": {
+              "location": "features\\steps\\formSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "field \"pre.ng-binding\" contains \"{\\\"name\\\":\\\"Limmy\\\",\\\"email\\\":\\\"lim@gmail.com\\\"}\"",
+            "match": {
+              "location": "features\\steps\\formSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click a button",
+            "match": {
+              "location": "features\\steps\\formSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "form-validation;validate-entire-form",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Validate Entire Form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I go to \"http://www.way2automation.com/angularjs-protractor/multiform/#/form/profile\"",
+            "match": {
+              "location": "features\\steps\\formSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I enter \"Jimmy\" for field \"formData.name\"",
+            "match": {
+              "location": "features\\steps\\formSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I enter \"jim@gmail.com\" for field \"formData.email\"",
+            "match": {
+              "location": "features\\steps\\formSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click a button",
+            "match": {
+              "location": "features\\steps\\formSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 413000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "report": {
+    "dir": "report/", // .tmp/
+    "results": "results.json"
+  },
+  "globalTimeout": 8000,
+  "browserTimeout": 3000
+}

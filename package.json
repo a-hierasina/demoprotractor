@@ -1,0 +1,24 @@
+{
+  "name": "demoprotractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "protractor": "protractor protractor.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "config": "^3.1.0",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.0",
+    "os": "^0.1.1",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.2",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1",
+    "shelljs": "^0.8.3"
+  }
+}
