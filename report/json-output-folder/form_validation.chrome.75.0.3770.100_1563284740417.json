@@ -426,6 +426,17 @@
           }
         ]
       }
-    ]
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "75.0.3770.100"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
   }
 ]

@@ -27,7 +27,7 @@ When("I click a button", async function () {
 
 //Radio buttons
 When("I select the option with value {string}", async function(opValue){
-    var optionField = element(by.css('[value="${opValue}"]'));
+    var optionField = element(by.css('#form-views > div:nth-child(2) > div:nth-child(1) > label > input'));
     await browser.wait(ExpectedConditions.visibilityOf(optionField), browserTimeout);
     await optionField.click();
 });
